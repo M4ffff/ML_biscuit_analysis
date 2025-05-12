@@ -148,7 +148,7 @@ def likelihood(params, model):
     return likelihood
 # functions used for the original model
 
-def original_prior_transform(u):
+def original_prior_transform(original_priors, u):
     """
     Transform uniform random variables to the model parameters.
     
@@ -196,7 +196,7 @@ def likelihood_original(params):
     return likelihood(params, original_model)
 # functions used for the original model
 
-def corrected_prior_transform(u):
+def corrected_prior_transform(corrected_priors, u):
     """
     Transform uniform random variables to the model parameters.
     
