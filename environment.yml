@@ -1,0 +1,24 @@
+name: ai_assessment_2
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - ipywidgets=8.0.7
+  - jupyter-book=1.0.3
+  - jupyterlab=4.3.4
+  - matplotlib=3.10.0
+  - numpy=1.26.4
+  - pandas=2.2.3
+  - pip=24.3.1
+  - pymc=5.20.0
+  - pytables=3.10.2
+  - python=3.11.11
+  - scikit-image=0.25.0
+  - scikit-learn=1.6.1
+  - scipy=1.15.1
+  - seaborn=0.13.2
+  - sphinx=7.4.7
+  - sympy=1.13.3
+  - arviz
+  - ultranest
+prefix: /home/oi21824/anaconda3/envs/ai_assessment_2

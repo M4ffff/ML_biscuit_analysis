@@ -7,4 +7,12 @@ Detailed instructions for the assessment are provided in "instructions.pdf", wit
 The datasets to be analysed are in the "datasets" folder, while the main analysis is done in the "dunking_analysis.ipynb" Jupyter Notebook.  
 The functions used throughout this notebook are imported from the "dunking_functions.py" script.
 
+The environment required for the analysis can be activated using:
+
+```python
+conda env create -f environment.yml
+
+conda activate ai_assessment_2
+```
+
 My final report of the analysis as described in the instructions is given in "AI dunking assessment.pdf".
